@@ -1,0 +1,5 @@
+@layer components {
+  .link {
+    @apply text-blue-500 underline visited:text-purple-500 hover:no-underline;
+  }
+}

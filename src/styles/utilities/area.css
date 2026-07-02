@@ -1,0 +1,7 @@
+@utility area-main {
+  grid-area: main;
+}
+
+@utility template-main {
+  grid-template-areas: 'main';
+}
