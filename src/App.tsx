@@ -15,14 +15,15 @@ function App() {
           {config.projects.map((project) => (
             <li
               key={project.name}
-              className="template-main group grid overflow-hidden rounded-lg bg-white shadow"
+              className="template-main group grid overflow-hidden rounded-xl bg-white shadow"
             >
               {project.image && (
-                <div className="area-main" data-slot="image">
+                <div className="area-main p-2" data-slot="image">
                   <img
                     src={project.image}
                     alt={project.name}
-                    className="aspect-video h-full rounded-lg w-full scale-95 object-cover transition-all group-hover:scale-110"
+                    className="aspect-video h-full w-full 
+                    rounded-lg object-cover transition-all group-hover:scale-110"
                   />
                 </div>
               )}
