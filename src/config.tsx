@@ -2,6 +2,7 @@ import kvilonImage from '~/assets/kvilon-screen.jpg'
 import calcImage from '~/assets/calc-screen.jpg'
 import goodgreenImage from '~/assets/goodgreen-screen.jpg'
 import xlombardImage from '~/assets/xlombard-screen.jpg'
+import matroskinImage from '~/assets/matroskin-screen.jpg'
 import ffgImage from '~/assets/ffg-screen.jpg'
 
 type Config = {
@@ -34,6 +35,12 @@ const config: Config = {
       url: 'https://flower-fracht-karaganda.vercel.app/',
       repo: 'https://github.com/slapxxi/kvilon',
       image: ffgImage,
+    },
+    {
+      name: 'Matroskin',
+      url: 'https://matroskin.vercel.app/',
+      repo: 'https://github.com/slapxxi/matroskin',
+      image: matroskinImage,
     },
     {
       name: 'XLombard',
