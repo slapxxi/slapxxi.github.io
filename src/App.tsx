@@ -1,6 +1,5 @@
 import './App.css'
 import config from './config'
-import kvilonImage from '~/assets/kvilon-screen.jpg'
 
 function App() {
   return (
@@ -23,32 +22,32 @@ function App() {
                   <img
                     src={project.image}
                     alt={project.name}
-                    className="aspect-video h-full w-full object-contain"
+                    className="aspect-video h-full rounded-lg w-full scale-95 object-cover transition-all group-hover:scale-110"
                   />
                 </div>
               )}
 
               <div
-                className="area-main grid content-between gap-1 bg-black/70 p-4
-                text-white backdrop-blur-lg transition-opacity group-hover:opacity-100 
+                className="area-main grid content-between gap-1 bg-linear-to-b from-black/55 to-black/80 p-4
+                text-white backdrop-blur-md transition-opacity group-hover:opacity-100 
                 group-has-data-[slot=image]:opacity-0 group-has-data-[slot=image]:group-hover:opacity-100"
               >
                 <h2
-                  className="text-xl font-semibold transition-all
-                  group-has-data-[slot=image]:opacity-0 
-                  group-has-data-[slot=image]:group-hover:translate-y-0
-        delay-100 group-hover:translate-y-0 group-has-data-[slot=image]:group-hover:opacity-100 group-has-data-[slot=image]:-translate-y-full"
+                  className="text-2xl transition-all
+                  delay-100 
+                  group-hover:translate-y-0
+        group-has-data-[slot=image]:-translate-y-full group-has-data-[slot=image]:opacity-0 group-has-data-[slot=image]:group-hover:translate-y-0 group-has-data-[slot=image]:group-hover:opacity-100"
                 >
                   {project.name}
                 </h2>
 
                 <div
                   className="grid gap-1 
+                  transition-all
+                  delay-100 
                   group-has-data-[slot=image]:translate-y-full
-                  group-has-data-[slot=image]:opacity-0 
-                  group-has-data-[slot=image]:group-hover:opacity-100
-                  group-has-data-[slot=image]:group-hover:translate-y-0
-                  transition-all delay-100"
+                  group-has-data-[slot=image]:opacity-0
+                  group-has-data-[slot=image]:group-hover:translate-y-0 group-has-data-[slot=image]:group-hover:opacity-100"
                 >
                   <a
                     href={project.url}

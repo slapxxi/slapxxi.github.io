@@ -1,5 +1,6 @@
 import kvilonImage from '~/assets/kvilon-screen.jpg'
 import calcImage from '~/assets/calc-screen.jpg'
+import goodgreenImage from '~/assets/goodgreen-screen.jpg'
 
 type Config = {
   name: string
@@ -25,6 +26,12 @@ const config: Config = {
       url: 'https://slapxxi.github.io/kvilon',
       repo: 'https://github.com/slapxxi/kvilon',
       image: kvilonImage,
+    },
+    {
+      name: 'Goodgreen',
+      url: 'https://goodgreen.vercel.app/',
+      repo: 'https://github.com/slapxxi/goodgreen',
+      image: goodgreenImage,
     },
     {
       name: 'Calculator',
