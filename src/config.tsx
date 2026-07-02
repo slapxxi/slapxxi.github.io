@@ -1,4 +1,5 @@
 import kvilonImage from '~/assets/kvilon-screen.jpg'
+import calcImage from '~/assets/calc-screen.jpg'
 
 type Config = {
   name: string
@@ -9,7 +10,7 @@ type Config = {
     name: string
     url: string
     repo: string
-    image: string
+    image?: string
   }[]
 }
 
@@ -24,6 +25,17 @@ const config: Config = {
       url: 'https://slapxxi.github.io/kvilon',
       repo: 'https://github.com/slapxxi/kvilon',
       image: kvilonImage,
+    },
+    {
+      name: 'Calculator',
+      url: 'https://calc-innowise.vercel.app/',
+      repo: 'https://github.com/slapxxi/calc-innowise',
+      image: calcImage,
+    },
+    {
+      name: 'Youtube Clone',
+      url: 'https://github.com/slapxxi/yt-clone-react',
+      repo: 'https://github.com/slapxxi/yt-clone-react',
     },
   ],
 }
