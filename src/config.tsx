@@ -1,6 +1,7 @@
 import kvilonImage from '~/assets/kvilon-screen.jpg'
 import calcImage from '~/assets/calc-screen.jpg'
 import goodgreenImage from '~/assets/goodgreen-screen.jpg'
+import ffgImage from '~/assets/ffg-screen.jpg'
 
 type Config = {
   name: string
@@ -26,6 +27,12 @@ const config: Config = {
       url: 'https://slapxxi.github.io/kvilon',
       repo: 'https://github.com/slapxxi/kvilon',
       image: kvilonImage,
+    },
+    {
+      name: 'Flower Fracht Karaganda',
+      url: 'https://flower-fracht-karaganda.vercel.app/',
+      repo: 'https://github.com/slapxxi/kvilon',
+      image: ffgImage,
     },
     {
       name: 'Goodgreen',
