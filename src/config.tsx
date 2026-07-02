@@ -16,6 +16,11 @@ type Config = {
     repo: string
     image?: string
   }[]
+  links: {
+    name: string
+    url: string
+    repo: string
+  }[]
 }
 
 const config: Config = {
@@ -60,6 +65,8 @@ const config: Config = {
       repo: 'https://github.com/slapxxi/calc-innowise',
       image: calcImage,
     },
+  ],
+  links: [
     {
       name: 'Youtube Clone',
       url: 'https://github.com/slapxxi/yt-clone-react',
