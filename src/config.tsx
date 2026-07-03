@@ -1,6 +1,7 @@
 import kvilonImage from '~/assets/kvilon-screen.jpg'
 import calcImage from '~/assets/calc-screen.jpg'
 import goodgreenImage from '~/assets/goodgreen-screen.jpg'
+import rentizImage from '~/assets/rentiz-screen.jpg'
 import xlombardImage from '~/assets/xlombard-screen.jpg'
 import matroskinImage from '~/assets/matroskin-screen.jpg'
 import ffgImage from '~/assets/ffg-screen.jpg'
@@ -58,6 +59,12 @@ const config: Config = {
       url: 'https://goodgreen.vercel.app/',
       repo: 'https://github.com/slapxxi/goodgreen',
       image: goodgreenImage,
+    },
+    {
+      name: 'Rentiz',
+      url: 'https://slapxxi.github.io/rentiz',
+      repo: 'https://github.com/slapxxi/rentiz',
+      image: rentizImage,
     },
     {
       name: 'Calculator',
