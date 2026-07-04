@@ -1,13 +1,16 @@
 import './App.css'
+import { Header } from '~/components'
 import config from './config'
 
 function App() {
   return (
     <div
       className="main grid min-h-screen z-10 overflow-hidden
-      grid-cols-[1fr_minmax(auto,1280px)_1fr] content-center 
+      grid-cols-[1fr_[content-start]minmax(auto,1280px)[content-end]_1fr] content-center 
       gap-x-4 gap-y-4 bg-linear-to-b from-zinc-500/40 [grid-template-areas:'main_main_main']"
     >
+      <Header />
+
       <div className="col-2 grid gap-4 my-10">
         <h2 className="text-4xl text-zinc-950/90">Projects</h2>
 
