@@ -19,7 +19,6 @@ type Config = {
   }[]
   links: {
     name: string
-    url: string
     repo: string
   }[]
 }
@@ -75,9 +74,20 @@ const config: Config = {
   ],
   links: [
     {
+      name: 'CV Management App',
+      repo: 'https://github.com/slapxxi/cv-innowise',
+    },
+    {
+      name: 'StackOverflow Clone',
+      repo: 'https://github.com/slapxxi/codelang',
+    },
+    {
       name: 'Youtube Clone',
-      url: 'https://github.com/slapxxi/yt-clone-react',
       repo: 'https://github.com/slapxxi/yt-clone-react',
+    },
+    {
+      name: 'CSS Layouts',
+      repo: 'https://github.com/slapxxi/css-layouts',
     },
   ],
 }
