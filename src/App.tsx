@@ -77,7 +77,7 @@ function App() {
 
       <ul className="col-2 grid gap-4 my-10">
         {config.links.map((link) => (
-          <li>
+          <li key={link.name}>
             <h2 className="text-black/90 text-3xl">{link.name}</h2>
             <div className="grid">
               <a

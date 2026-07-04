@@ -5,7 +5,7 @@ export const Header = () => {
     <header className="col-[content] py-4">
       <ul className="flex gap-4 flex-wrap">
         {config.links.map((link) => (
-          <li>
+          <li key={link.name}>
             <a
               href={link.repo}
               rel="noreferrer"
