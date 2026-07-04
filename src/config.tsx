@@ -1,10 +1,11 @@
-import kvilonImage from '~/assets/kvilon-screen.jpg'
+import analyticsImage from '~/assets/analytics-screen.jpg'
 import calcImage from '~/assets/calc-screen.jpg'
+import ffgImage from '~/assets/ffg-screen.jpg'
 import goodgreenImage from '~/assets/goodgreen-screen.jpg'
+import kvilonImage from '~/assets/kvilon-screen.jpg'
+import matroskinImage from '~/assets/matroskin-screen.jpg'
 import rentizImage from '~/assets/rentiz-screen.jpg'
 import xlombardImage from '~/assets/xlombard-screen.jpg'
-import matroskinImage from '~/assets/matroskin-screen.jpg'
-import ffgImage from '~/assets/ffg-screen.jpg'
 
 type Config = {
   name: string
@@ -64,6 +65,12 @@ const config: Config = {
       url: 'https://slapxxi.github.io/rentiz',
       repo: 'https://github.com/slapxxi/rentiz',
       image: rentizImage,
+    },
+    {
+      name: 'Analytics',
+      url: 'https://slapxxi.github.io/analytics',
+      repo: 'https://github.com/slapxxi/analytics',
+      image: analyticsImage,
     },
     {
       name: 'Calculator',
