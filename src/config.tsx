@@ -1,5 +1,6 @@
 import analyticsImage from '~/assets/analytics-screen.jpg'
 import calcImage from '~/assets/calc-screen.jpg'
+import canvaImage from '~/assets/canva-screen.jpg'
 import ffgImage from '~/assets/ffg-screen.jpg'
 import goodgreenImage from '~/assets/goodgreen-screen.jpg'
 import kvilonImage from '~/assets/kvilon-screen.jpg'
@@ -65,6 +66,12 @@ const config: Config = {
       url: 'https://slapxxi.github.io/rentiz',
       repo: 'https://github.com/slapxxi/rentiz',
       image: rentizImage,
+    },
+    {
+      name: 'Canva',
+      url: 'https://slapxxi.github.io/canva',
+      repo: 'https://github.com/slapxxi/canva',
+      image: canvaImage,
     },
     {
       name: 'Analytics',

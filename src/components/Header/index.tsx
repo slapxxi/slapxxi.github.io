@@ -3,7 +3,7 @@ import config from './config'
 export const Header = () => {
   return (
     <header className="col-[content] py-4">
-      <ul className="flex gap-3 flex-wrap items-center justify-center">
+      <ul className="flex gap-3 flex-wrap items-center justify-between max-w-prose mx-auto">
         {config.links.map((link) => (
           <li key={link.name}>
             <a
