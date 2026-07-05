@@ -1,5 +1,5 @@
-import './App.css'
 import { Header } from '~/components'
+import './App.css'
 import config from './config'
 
 function App() {

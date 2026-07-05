@@ -1,6 +1,7 @@
 import analyticsImage from '~/assets/analytics-screen.jpg'
 import calcImage from '~/assets/calc-screen.jpg'
 import canvaImage from '~/assets/canva-screen.jpg'
+import etmImage from '~/assets/enterprise-task-manager-screen.jpg'
 import ffgImage from '~/assets/ffg-screen.jpg'
 import goodgreenImage from '~/assets/goodgreen-screen.jpg'
 import kvilonImage from '~/assets/kvilon-screen.jpg'
@@ -78,6 +79,12 @@ const config: Config = {
       url: 'https://slapxxi.github.io/analytics',
       repo: 'https://github.com/slapxxi/analytics',
       image: analyticsImage,
+    },
+    {
+      name: 'Task Manager',
+      url: 'https://slapxxi.github.io/enterprise-task-manager',
+      repo: 'https://github.com/slapxxi/enterprise-task-manager',
+      image: etmImage,
     },
     {
       name: 'Calculator',
