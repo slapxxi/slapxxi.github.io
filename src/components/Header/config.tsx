@@ -2,6 +2,7 @@ import GithubIcon from '~/assets/github-icon.svg?react'
 import LinkedInIcon from '~/assets/linkedin-icon.svg?react'
 import TelegramIcon from '~/assets/telegram-icon.svg?react'
 import TwitterIcon from '~/assets/twitter-icon.svg?react'
+import cvIcon from '~/assets/cv-icon.svg?react'
 
 const config = {
   links: [
@@ -12,7 +13,7 @@ const config = {
     },
     {
       Icon: TwitterIcon,
-      name: 'Twitter',
+      name: 'X',
       repo: 'https://x.com/slapxxi',
     },
     {
@@ -24,6 +25,11 @@ const config = {
       Icon: TelegramIcon,
       name: 'Telegram',
       repo: 'https://t.me/slapxxi',
+    },
+    {
+      Icon: cvIcon,
+      name: 'CV',
+      repo: 'https://slapxxi.github.io/cv/',
     },
   ],
 }
