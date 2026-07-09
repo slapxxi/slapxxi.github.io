@@ -6,6 +6,7 @@ import ffgImage from '~/assets/ffg-screen.jpg'
 import goodgreenImage from '~/assets/goodgreen-screen.jpg'
 import kvilonImage from '~/assets/kvilon-screen.jpg'
 import matroskinImage from '~/assets/matroskin-screen.jpg'
+import mntnImage from '~/assets/mntn-screen.jpg'
 import rentizImage from '~/assets/rentiz-screen.jpg'
 import xlombardImage from '~/assets/xlombard-screen.jpg'
 
@@ -61,6 +62,12 @@ const config: Config = {
       url: 'https://goodgreen.vercel.app/',
       repo: 'https://github.com/slapxxi/goodgreen',
       image: goodgreenImage,
+    },
+    {
+      name: 'MNTN',
+      url: 'https://slapxxi.github.io/mntn',
+      repo: 'https://github.com/slapxxi/mntn',
+      image: mntnImage,
     },
     {
       name: 'Rentiz',
