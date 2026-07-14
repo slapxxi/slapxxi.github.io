@@ -9,6 +9,7 @@ import matroskinImage from '~/assets/matroskin-screen.jpg'
 import mntnImage from '~/assets/mntn-screen.jpg'
 import rentizImage from '~/assets/rentiz-screen.jpg'
 import xlombardImage from '~/assets/xlombard-screen.jpg'
+import ytImage from '~/assets/yt-screen.jpg'
 
 type Config = {
   name: string
@@ -88,6 +89,12 @@ const config: Config = {
       image: analyticsImage,
     },
     {
+      name: 'YT Simple',
+      url: 'https://slapxxi.github.io/yt-simple',
+      repo: 'https://github.com/slapxxi/yt-simple',
+      image: ytImage,
+    },
+    {
       name: 'Task Manager',
       url: 'https://slapxxi.github.io/enterprise-task-manager',
       repo: 'https://github.com/slapxxi/enterprise-task-manager',
@@ -108,10 +115,6 @@ const config: Config = {
     {
       name: 'StackOverflow Clone',
       repo: 'https://github.com/slapxxi/codelang',
-    },
-    {
-      name: 'Youtube Clone',
-      repo: 'https://github.com/slapxxi/yt-clone-react',
     },
     {
       name: 'CSS Layouts',
