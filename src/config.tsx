@@ -8,6 +8,7 @@ import kvilonImage from '~/assets/kvilon-screen.jpg'
 import matroskinImage from '~/assets/matroskin-screen.jpg'
 import mntnImage from '~/assets/mntn-screen.jpg'
 import rentizImage from '~/assets/rentiz-screen.jpg'
+import vueTodoImage from '~/assets/vuetodo-screen.jpg'
 import xlombardImage from '~/assets/xlombard-screen.jpg'
 import ytImage from '~/assets/yt-screen.jpg'
 
@@ -93,6 +94,12 @@ const config: Config = {
       url: 'https://slapxxi.github.io/yt-simple',
       repo: 'https://github.com/slapxxi/yt-simple',
       image: ytImage,
+    },
+    {
+      name: 'Vue Todo',
+      url: 'https://slapxxi.github.io/vue-todo',
+      repo: 'https://github.com/slapxxi/vue-todo',
+      image: vueTodoImage,
     },
     {
       name: 'Task Manager',
