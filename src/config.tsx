@@ -1,4 +1,5 @@
 import analyticsImage from '~/assets/analytics-screen.jpg'
+import berkanaImage from '~/assets/berkana-screen.jpg'
 import calcImage from '~/assets/calc-screen.jpg'
 import canvaImage from '~/assets/canva-screen.jpg'
 import etmImage from '~/assets/enterprise-task-manager-screen.jpg'
@@ -46,6 +47,12 @@ const config: Config = {
       url: 'https://flower-fracht-karaganda.vercel.app/',
       repo: 'https://github.com/slapxxi/kvilon',
       image: ffgImage,
+    },
+    {
+      name: 'Berkana',
+      url: 'https://slapxxi.github.io/berkana',
+      repo: 'https://github.com/slapxxi/berkana',
+      image: berkanaImage,
     },
     {
       name: 'Matroskin',
