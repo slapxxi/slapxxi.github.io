@@ -5,52 +5,52 @@ import config from './config'
 function App() {
   return (
     <div
-      className="main grid min-h-screen z-10 overflow-hidden
-      grid-cols-[1fr_[content-start]minmax(auto,1280px)[content-end]_1fr] content-center 
-      gap-x-4 gap-y-4 bg-linear-to-b from-zinc-500/40 [grid-template-areas:'main_main_main']"
+      className="main z-10 grid min-h-screen grid-cols-[1fr_[content-start]minmax(auto,1280px)[content-end]_1fr]
+      content-center gap-x-4 
+      gap-y-4 overflow-hidden bg-linear-to-b from-zinc-500/40 [grid-template-areas:'main_main_main']"
     >
       <Header />
 
-      <div className="col-2 grid gap-4 my-10">
+      <div className="col-2 my-10 grid gap-4">
         <h2 className="text-4xl text-zinc-950/90">Projects</h2>
 
         <ul className="grid auto-rows-fr grid-cols-[repeat(auto-fill,minmax(max(20vw,320px),1fr))] gap-4 self-center">
           {config.projects.map((project) => (
             <li
               key={project.name}
-              className="template-main group grid overflow-hidden rounded-xl bg-white shadow"
+              className="group grid overflow-hidden rounded-xl bg-white shadow template-main"
               tabIndex={0}
             >
               {project.image && (
-                <div className="area-main p-2" data-slot="image">
+                <div className="p-2 area-main" data-slot="image">
                   <img
                     src={project.image}
                     alt={project.name}
                     className="aspect-video h-full w-full 
-                    group-focus:scale-110
-                    rounded-lg object-cover transition-all group-hover:scale-110"
+                    rounded-lg
+                    object-cover transition-all group-hover:scale-110 group-focus:scale-110"
                   />
                 </div>
               )}
 
               <div
-                className="area-main grid content-between gap-1 bg-linear-to-b from-black/55 to-black/80 p-4
-                text-white backdrop-blur-md transition-opacity 
-                group-focus:opacity-100
-                opacity-0 group-hover:opacity-100"
+                className="grid content-between gap-1 bg-linear-to-b from-black/55 to-black/80 p-4 text-white
+                opacity-0 backdrop-blur-md transition-opacity 
+                area-main
+                group-hover:opacity-100 group-focus:opacity-100"
               >
                 <h2
-                  className="text-2xl transition-all delay-100 -translate-y-full 
-                  group-focus:opacity-100 group-focus:translate-y-0
-                  opacity-0 group-hover:translate-y-0 group-hover:opacity-100"
+                  className="-translate-y-full text-2xl opacity-0 transition-all 
+                  delay-100 group-hover:translate-y-0
+                  group-hover:opacity-100 group-focus:translate-y-0 group-focus:opacity-100"
                 >
                   {project.name}
                 </h2>
 
                 <div
-                  className="grid gap-1 transition-all delay-100 translate-y-full 
-                  group-focus:opacity-100 group-focus:translate-y-0
-                  opacity-0 group-hover:translate-y-0 group-hover:opacity-100"
+                  className="grid translate-y-full gap-1 opacity-0 transition-all 
+                  delay-100 group-hover:translate-y-0
+                  group-hover:opacity-100 group-focus:translate-y-0 group-focus:opacity-100"
                 >
                   <a
                     href={project.url}
@@ -75,10 +75,10 @@ function App() {
         </ul>
       </div>
 
-      <ul className="col-2 grid gap-4 my-10">
+      <ul className="col-2 my-10 grid gap-4">
         {config.links.map((link) => (
           <li key={link.name}>
-            <h2 className="text-black/90 text-3xl">{link.name}</h2>
+            <h2 className="text-3xl text-black/90">{link.name}</h2>
             <div className="grid">
               <a
                 href={link.repo}
